@@ -1,7 +1,6 @@
 spring:
-  application:
-    name: transportadora
   datasource:
+    driver-class-name: com.mysql.jdbc.Driver 
     username: root
     password: root
     url: jdbc:mysql://localhost:3306/transporter
